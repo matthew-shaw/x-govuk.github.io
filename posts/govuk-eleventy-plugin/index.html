@@ -60,25 +60,29 @@
 
         <main class="govuk-main-wrapper " id="main-content" role="main">
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-<article class="app-article">
-  <header class="app-article__header">
-    <h1 class="app-article__title govuk-heading-xl">
-      Write documentation using Markdown and publish it using GOV.UK styles
-    </h1>
-  </header>
+    <div class="govuk-grid-column-full">
+      <header class="app-document-header">
+  <h1 class="app-document-header__title govuk-heading-xl">
+    Write documentation using Markdown and publish it using GOV.UK styles
+  </h1>
+</header>
 
-  <footer class="app-article__footer">
-    <p class="govuk-body-s">
+
+
+      <footer class="app-document-footer">
+  <p class="app-document-footer__metadata">
 <a class="govuk-link" href="https://github.com/paulrobertlloyd">Paul Lloyd</a><span aria-hidden="true"> · </span>
-      <span class="govuk-visually-hidden">Posted on: </span><time datetime="1649030400000">4 April 2022</time>
-    </p>
-  </footer>
+    <span class="govuk-visually-hidden">Posted on: </span><time datetime="1649030400000">4 April 2022</time>
+  </p>
+</footer>
 
-  <div class="app-article__body">
-<figure>
-      <img src="/assets/posts/govuk-eleventy-plugin/govuk-eleventy-plugin.png" alt="The homepage illustration for the GOV.UK Eleventy Plugin.">
-</figure>        <p class="govuk-body">Back in 2018, the Becoming a teacher team at the Department for Education wanted to <a href="https://design-history.herokuapp.com/keeping-a-design-history/" class="govuk-link">document the design evolution of the services they were building</a>. A small website was built using the <a href="https://govuk-prototype-kit.herokuapp.com/docs" class="govuk-link">GOV.UK Prototype Kit</a>, but this soon became difficult to manage as more people joined the team and wanted to write posts.</p>
+    </div>
+
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+<div class="app-prose-scope"><figure>
+            <img src="/assets/posts/govuk-eleventy-plugin/govuk-eleventy-plugin.png" alt="The homepage illustration for the GOV.UK Eleventy Plugin.">
+</figure>
+        <p class="govuk-body">Back in 2018, the Becoming a teacher team at the Department for Education wanted to <a href="https://design-history.herokuapp.com/keeping-a-design-history/" class="govuk-link">document the design evolution of the services they were building</a>. A small website was built using the <a href="https://govuk-prototype-kit.herokuapp.com/docs" class="govuk-link">GOV.UK Prototype Kit</a>, but this soon became difficult to manage as more people joined the team and wanted to write posts.</p>
 <p class="govuk-body">Looking for alternatives, the team chose <a href="https://11ty.dev" class="govuk-link">Eleventy</a>, a static website generator developed by Zach Leatherman<sup id="fnref:1"><a class="govuk-link" href="#fn:1" aria-describedby="footnotes-label">1</a></sup>. Like the Prototype Kit, it uses Node.js, yet is designed around organising and publishing content-focused websites.</p>
 <p class="govuk-body">This includes support for <a href="https://www.markdownguide.org" class="govuk-link">Markdown</a>, a lightweight markup language for formatting plain text documents. Posts can incorporate metadata like publication dates and authors, and be organised into different collections.</p>
 <p class="govuk-body">With this foundation in place, <a href="https://bat-design-history.netlify.app/" class="govuk-link">the design history</a> grew to over 500 posts written by more than 20 authors. In 2020 we made this tool available as <a href="https://github.com/x-govuk/govuk-design-history" class="govuk-link">a template repository on GitHub</a> so that other teams could quickly begin writing their own design histories. The tool has since been adopted by other teams, both inside the Department for Education and across government.</p>
@@ -112,7 +116,6 @@
 </footer>
 
 </div>
-</article>
     </div>
 
   </div>
